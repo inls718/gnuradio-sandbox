@@ -82,6 +82,33 @@
     </param>
   </block>
   <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(464, 93)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>cutoff</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>100e3</value>
+    </param>
+  </block>
+  <block>
     <key>variable_slider</key>
     <param>
       <key>comment</key>
@@ -374,11 +401,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>False</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(456, 93)</value>
+      <value>(544, 93)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -477,6 +504,33 @@
     <param>
       <key>style</key>
       <value>wx.SL_HORIZONTAL</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(384, 93)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>width</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>100e6</value>
     </param>
   </block>
   <block>
@@ -735,7 +789,7 @@
     </param>
     <param>
       <key>taps</key>
-      <value>firdes.low_pass(1,samp_rate,cutoff,width)</value>
+      <value>taps</value>
     </param>
     <param>
       <key>type</key>
