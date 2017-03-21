@@ -1,3 +1,10 @@
 This is where I will upload grc files that I have been working on.
 
 Working GRC files:
+QAM test - works as intentded
+PSK test - works ish, but adds in 0s at predictable intervals ???
+DPSK test - works as intended tested at 2,4,8,16
+GFSK test - not as reliable but works as intended, tested at 2,4,8,16
+
+Not Working:
+FEC test - no idea, I'm researching what the encoder objects are doing and why they are currently crippled
